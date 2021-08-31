@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/Week2.dir/quicksort.cpp.o  -o Week2 
