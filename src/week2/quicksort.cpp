@@ -3,6 +3,8 @@
 #include <vector>
 #include <cstdlib>
 
+#include "Week2Config.h"
+
 using std::vector;
 
 int pick_pivot(vector<int> &arr, int beg, int end){
@@ -77,11 +79,14 @@ int main(void){
 	vector<int> my_arr(arr_len);
 
 	//read arr from file
-	std::ifstream in("QuickSort.txt");
+	std::ifstream in("~/code/DAA-Stanford/src/week2/QuickSort.txt");
 	for(int i = 0; i < arr_len; ++i)
 		in >> my_arr[i];
 
 	long ans = quicksort(my_arr, 0, arr_len);
+
+	std::cout << "Version " << Week2_VERSION_MAJOR << "."
+		<< Week2_VERSION_MINOR << std::endl;
 
 	std::cout << ans << std::endl;
 	return EXIT_SUCCESS;

@@ -1,0 +1,3 @@
+#define Week2_VERSION_MAJOR @Week2_VERSION_MAJOR@
+#define Week2_VERSION_MINOR @Week2_VERSION_MINOR@
+

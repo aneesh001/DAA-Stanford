@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aneeshd/code/DAA-Stanford/src/week2/quicksort.cpp
+iostream
+-
+fstream
+-
+vector
+-
+cstdlib
+-
+Week2Config.h
+/home/aneeshd/code/DAA-Stanford/src/week2/Week2Config.h
+
+Week2Config.h
+
